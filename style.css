@@ -7,10 +7,12 @@ html, body {
     background-color: rgb(173, 173, 173);
     padding: 1% 0;
     font-size: 1.2em;
+    vertical-align: middle;
 }
 
 .navbar-brand {
-    min-height: 60px;
+    min-width: 55px;
+    min-height: 55px;
     padding: 0 15px 5px;
 }
 
@@ -33,7 +35,6 @@ html, body {
 .landing-text {
     display: table-cell;
     text-align: center;
-    horizontal-align: right;
     vertical-align: middle;
     color: black;
     padding-right: 100px;
@@ -41,8 +42,9 @@ html, body {
 }
 
 .landing-text h1 {
-    font-size: 700%
-    font-weight: 1000;
+    font-size: 500%;
+    font-weight: 2rem;
+
 }
 
 #avatar{
@@ -50,3 +52,66 @@ html, body {
     height: 60px;
     width: 60px;
 }
+
+#home .slogan {
+    vertical-align: bottom;
+}
+
+.padding {
+    padding: 80px 0px;
+}
+
+.padding img {
+    width: 100%;
+}
+
+#fixed {
+    background: url(http://xinature.com/wp-content/uploads/2016/08/winter-tree-christmas-snowy-time-snow-holidays-xmas-merry-splendor-magic-bokeh-wallpaper-hd-1920x1080-1920x1080.jpg) no-repeat center center fixed;
+    display: table;
+    height: 65%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    padding: 5% 5% 10% 5%;
+    color: white;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: white
+}
+
+.fa :hover {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+.icon {
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .landing-texth1 {
+        font-size: 300%;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
+
+.blog {
+    background-color: white;
+}
+
+
