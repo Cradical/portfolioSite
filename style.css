@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(173, 173, 173);
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    min-height: 60px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav li a hover, .navbar-default .navbar-nav li a.active {
+    color: #D5D5D5;
+} 
+
+#home {
+    background: url(http://xinature.com/wp-content/uploads/2016/08/winter-tree-christmas-snowy-time-snow-holidays-xmas-merry-splendor-magic-bokeh-wallpaper-hd-1920x1080-1920x1080.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    horizontal-align: right;
+    vertical-align: middle;
+    color: black;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.landing-text h1 {
+    font-size: 700%
+    font-weight: 1000;
+}
+
+#avatar{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
